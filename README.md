@@ -20,6 +20,7 @@ displays to console:
 ls             display files and subdirectories in the directory
 
 cd             Home directory
+ls             display files and subdirectories in the directory
 cd [folder]    Change directory, e.g. cd Documents [TAB to suggest]
 cd/				Root of the drive
 cd -				Previous directory or folder you last browsed
