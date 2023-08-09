@@ -2,6 +2,8 @@
 
 _Note: So far this is only for MAC Users using bash or zrshc_
 
+[See: Installation](#installation)
+
 What you'll be able to do:
 
 _example1_
