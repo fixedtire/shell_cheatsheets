@@ -17,7 +17,7 @@ Available cheat-sheets for:
 
 What you'll be able to do with it:
 
-** Example1: For useful CLI-Commands**
+**Example1: For useful CLI-Commands**
 
 _type into console:_
 
