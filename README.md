@@ -15,7 +15,7 @@ terminal_help
 displays:
 
 ```
-ls                  display files and subdirectories in the directory
+ls                      display files and subdirectories in the directory
 
 cd				Home directory
 cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
