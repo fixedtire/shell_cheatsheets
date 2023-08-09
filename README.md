@@ -57,7 +57,7 @@ open . .			opens current directory
 
 ```
 
-### GitHub Text-Formatting
+**GitHub Text-Formatting**
 
 _type into console_
 
