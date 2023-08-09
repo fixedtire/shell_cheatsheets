@@ -128,7 +128,8 @@ _Help for GNU:_ [CMD] + [X] to save, press [Y] to save, [ENTER] to confirm
 _Alternative:_ Open the configuration with TextEdit (by default located in: /Users/yourusername/)
 
 4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
-   **Note:**Remind this an example path, you have to adjust it
+
+   **Note:**Don't forget to replace the path with the directory where you saved the .txt files!
 
 ```
 alias gh_format='cat /Users/mariah/bin/github_format.txt'
