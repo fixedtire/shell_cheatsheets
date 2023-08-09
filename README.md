@@ -1,6 +1,6 @@
 # :shell: Shell Cheat-Sheets
 
-_Note: So far this is only for MAC Users using bash or zrshc_
+_Note: So far this is only for MAC Users (Bash/ZShell)_
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
