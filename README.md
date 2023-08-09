@@ -6,15 +6,22 @@ _Note: So far this is only for MAC Users (Bash/ZShell)_
 
 ## Quick-Start
 
-What you'll be able to do:
+Available cheat-sheets for:
 
-_example1_
+- CLI-Commands
+- GitHub Text Formatting
+- Git/GitHub Commands
+- VS Code Shortcuts/CLI Commands
+
+What you'll be able to do with it:
+
+_type into terminal:_
 
 ```
 showtips
 ```
 
-displays to console:
+example Output:
 
 ```
 ls                      display files and subdirectories in the directory
