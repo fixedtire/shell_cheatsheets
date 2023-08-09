@@ -2,16 +2,16 @@
 
 _Note: So far this is only for MAC Users (Bash/ZShell)_
 
-### :arrow_right: [Directly jump to Installation](#installation)
-
-## Quick-Start
-
 Available cheat-sheets for:
 
 - CLI-Commands
 - GitHub Text Formatting
 - Git/GitHub Commands
 - VS Code Shortcuts/CLI Commands
+
+### :arrow_right: [Directly jump to Installation](#installation)
+
+## Quick-Start
 
 What you'll be able to do with it:
 
