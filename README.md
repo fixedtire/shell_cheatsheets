@@ -1,12 +1,10 @@
 # console_shortcuts
 
-## a program for beginner developers to list useful commands inside your console (eg: "ls", "mkdir", git/github commands)
-
 _Note: So far this is only for MAC Users using bash or zrshc_
 
 What you'll be able to do:
 
-_example_ you want to display useful commands for your terminal
+_example1_ you want to display useful commands for your terminal
 
 ```
 terminal_help
@@ -41,4 +39,58 @@ cat <file>			output the content of <file>
 open [file]			opens a file
 
 open . .			opens current directory
+
+// list goes on
+```
+
+_example2_ syntax to format github text files
+
+```
+gh_format
+```
+
+```
+******** Text Markup *********
+
+# A first-level heading
+## A second-level heading
+### A third-level heading
+
+**bold**
+
+_italic_
+
+```
+
+codeblock
+
+```
+
+********* Ordered List (Numbers) ************
+
+1. element 1
+2. element 2
+3. element 3
+
+********* Ordered List (Bullet Points) ************
+
+- element 1
+- element 2
+- element 3
+
+********* Links ********
+
+[Link-Title](URL)
+
+********* Images *******
+
+![description](IMAGE-URL)
+
+******** Emojis ********
+
+:vampire_woman:		shows Vampire Woman
+:+1:			shows Thumbs Up Emoji
+:heart:			shows Heart Emoji
+
+full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 ```
