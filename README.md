@@ -28,20 +28,20 @@ showtips
 example Output:
 
 ```
-ls                      display files and subdirectories in the directory
+ls                            display files and subdirectories in the directory
 
-cd                      Home directory
-cd [folder]             Change directory, e.g. cd Documents [TAB to suggest]
-cd/			Root of the drive
-cd -			Previous directory or folder you last browsed
-pwd			Show your present working directory
+cd                            Home directory
+cd [folder]                   Change directory, e.g. cd Documents [TAB to suggest]
+cd/			      Root of the drive
+cd -			      Previous directory or folder you last browsed
+pwd			      Show your present working directory
 
-cd ..			Move up to the parent directory
+cd ..			      Move up to the parent directory
 
-cd ../..		Move up two levels
+cd ../..		      Move up two levels
 
-mkdir <dir>		create new folder named <dir>
-mkdir -p <dir>/<dir>	create nested folders
+mkdir <dir>		      create new folder named <dir>
+mkdir -p <dir>/<dir>	      create nested folders
 mkdir <dir1> <dir2> <dir3>	create several folders at once
 
 rm <file>			remove file
