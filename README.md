@@ -51,7 +51,7 @@ gh_format
 
 displays to console:
 
-```
+````
 ******** Text Markup *********
 
 # A first-level heading
@@ -61,6 +61,10 @@ displays to console:
 **bold**
 
 _italic_
+
+[```]  (square brackets only here in the Readme file)
+codeblock
+[```]
 
 
 ********* Ordered List (Numbers) ************
@@ -90,8 +94,10 @@ _italic_
 :heart:			shows Heart Emoji
 
 full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
-```
+````
 
-##Installation:
+## Installation:
 
-1. Write .txt files to user/local (you can also cherry-pick what you need :cherries: )
+1. Download .custom_commands.sh
+
+2. Write .txt files to user/local (you can also cherry-pick what you need :cherries:)
