@@ -6,10 +6,11 @@
 ***** FOLDERS/FILES *****
 
 ls                  		display files and subdirectories in the directory
+ls -a                       displays hidden files too
 
 cd				Home directory
 cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
-cd/				Root of the drive
+cd /				Root of the drive
 cd -				Previous directory or folder you last browsed
 pwd				Shows your present working directory
 

@@ -31,8 +31,6 @@ git config --list 					see username/e-mail
 or:
 git config -get [user.name | user. email]
 
-cd ordner-name 						create directory (ordner)
-
 git init 						if in the correct directory -> initialize repository
 
 git log							shows history of commits
