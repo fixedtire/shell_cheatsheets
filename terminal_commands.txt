@@ -6,7 +6,7 @@
 ***** FOLDERS/FILES *****
 
 ls                  		display files and subdirectories in the directory
-ls -a                       displays hidden files too
+ls -a                       display hidden files too
 
 cd				Home directory
 cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
