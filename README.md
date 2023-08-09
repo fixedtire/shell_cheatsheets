@@ -17,9 +17,9 @@ terminal_help
 displays to console:
 
 ```
-ls                      display files and subdirectories in the directory
+ls                         display files and subdirectories in the directory
 
-cd                      Home directory
+cd                         Home directory
 cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
 cd/				Root of the drive
 cd -				Previous directory or folder you last browsed
