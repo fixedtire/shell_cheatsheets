@@ -121,13 +121,13 @@ echo $SHELL
 
 3. Open your Configuration File:
 
-a: For ZShell type:
+_For ZShell type:_
 
 ```
  nano ~/.zshrc
 ```
 
-b: For Bash type:
+_For Bash type:_
 
 ```
  nano ~/.bshrc
