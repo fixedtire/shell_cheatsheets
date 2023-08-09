@@ -67,7 +67,7 @@ git remote add origin https://url.com/x.git 				link local git repository with e
 git remote -v 								displays the URLs of the current linked remote repository.
 
 git push origin master 							transfer local commits to remote repository 
-WHEN THERE IS A PROBLEM WITH PUSHING (CAREFULLY!) FETCHING first
+
 									'origin' name of the repo, 'master' is standard branch for every repo
 
 
