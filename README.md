@@ -17,7 +17,7 @@ Available cheat-sheets for:
 
 What you'll be able to do with it:
 
-**For useful CLI-Commands**
+** Example1: For useful CLI-Commands**
 
 _type into console:_
 
@@ -57,7 +57,7 @@ open . .			opens current directory
 
 ```
 
-**GitHub Text-Formatting**
+**Example 2: GitHub Text-Formatting**
 
 _type into console_
 
