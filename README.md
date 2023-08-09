@@ -2,7 +2,9 @@
 
 _Note: So far this is only for MAC Users using bash or zrshc_
 
-[See: Installation](#installation)
+[Directly jump to Installation](#installation)
+
+## Quick-Start
 
 What you'll be able to do:
 
