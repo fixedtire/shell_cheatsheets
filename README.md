@@ -2,7 +2,7 @@
 
 _Note: So far this is only for MAC Users using bash or zrshc_
 
-[Directly jump to Installation](#installation)
+### [Directly jump to Installation](#installation)
 
 ## Quick-Start
 
@@ -11,7 +11,7 @@ What you'll be able to do:
 _example1_
 
 ```
-terminal_help
+showtips
 ```
 
 displays to console:
@@ -133,7 +133,7 @@ _Alternative:_ Open the configuration with TextEdit (by default located in: /Use
 
 ```
 alias gh_format='cat /Users/mariah/bin/github_format.txt'
-alias sh_commands='cat /Users/mariah/bin/terminal_commands.txt'
+alias showtips='cat /Users/mariah/bin/terminal_commands.txt'
 alias git_commands='cat /Users/mariah/bin/git_commands.txt'
 ```
 
