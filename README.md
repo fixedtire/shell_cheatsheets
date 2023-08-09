@@ -4,13 +4,13 @@ _Note: So far this is only for MAC Users using bash or zrshc_
 
 What you'll be able to do:
 
-_example1_ you want to display useful commands for your terminal
+_example1_
 
 ```
 terminal_help
 ```
 
-displays:
+displays to console:
 
 ```
 ls                      display files and subdirectories in the directory
@@ -49,6 +49,8 @@ _example2_ syntax to format github text files
 gh_format
 ```
 
+displays to console:
+
 ```
 ******** Text Markup *********
 
@@ -60,11 +62,6 @@ gh_format
 
 _italic_
 
-```
-
-codeblock
-
-```
 
 ********* Ordered List (Numbers) ************
 
