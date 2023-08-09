@@ -94,6 +94,6 @@ _italic_
 full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
 ```
 
-#Installation:
+#Installation
 
 1. Write .txt files to user/local (you can also cherry-pick what you need :cherry:)
