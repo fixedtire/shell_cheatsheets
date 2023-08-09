@@ -1,5 +1,7 @@
 # :shell: Shell Cheat-Sheets
 
+### Create Aliases (short Commands) for Cheat-Sheets (executable from any directory)
+
 _Note: So far this is only for MAC Users (Bash/ZShell)_
 
 Available cheat-sheets for:
