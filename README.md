@@ -110,7 +110,8 @@ echo $SHELL
 ```
 
 3. Open your Configuration File:
-   a: For ZShell type:
+
+a: For ZShell type:
 
 ```
  nano ~/.zshrc
@@ -122,8 +123,12 @@ b: For Bash type:
  nano ~/.bshrc
 ```
 
-_Alternative:_ Open the configuration with TextEdit (by default located in: /Users/yourusername/) 4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
-**Note:**Remind this an example path, you have to adjust it
+_Help for GNU:_ [CMD] + [X] to save, press [Y] to save, [ENTER] to confirm
+
+_Alternative:_ Open the configuration with TextEdit (by default located in: /Users/yourusername/)
+
+4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
+   **Note:**Remind this an example path, you have to adjust it
 
 ```
 alias gh_format='cat /Users/mariah/bin/github_format.txt'
