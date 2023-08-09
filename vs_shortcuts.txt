@@ -1,0 +1,68 @@
+General Shortcuts:
+- Ctrl + P: Quick Open (Navigate to files)
+- Ctrl + Shift + N: New Window
+- Ctrl + B: Toggle Sidebar
+- Ctrl + Shift + E: Show Explorer (File Explorer)
+- Ctrl + Shift + F: Search in Files
+- Ctrl + `: Toggle Integrated Terminal
+- Ctrl + J: Toggle Panel (Output, Terminal, etc.)
+- Ctrl + K, Ctrl + S: Keyboard Shortcuts
+- Ctrl + K, Ctrl + T: Change Color Theme
+
+File Navigation and Editing:
+- Ctrl + S: Save File
+- Ctrl + Shift + S: Save As
+- Ctrl + W: Close Editor
+- Ctrl + Tab: Switch Editor
+- Ctrl + Shift + Tab: Switch to Previous Editor
+- Ctrl + G: Go to Line/Column
+- Ctrl + D: Add Selection to Next Find Match
+- Ctrl + U: Undo Selection
+- Alt + Click: Multi-Cursor Selection
+- Ctrl + Alt + Up/Down: Add Cursor Above/Below
+- Ctrl + L: Select Current Line
+- Ctrl + X: Cut Line
+- Ctrl + C: Copy Line
+- Ctrl + Enter: Insert Line Below
+- Ctrl + Shift + Enter: Insert Line Above
+- Ctrl + /: Toggle Line Comment
+- Shift + Alt + A: Toggle Block Comment
+
+Code Navigation and Manipulation:
+- Ctrl + F: Find
+- Ctrl + H: Replace
+- F12: Go to Definition
+- Ctrl + F12: Go to Declaration
+- Ctrl + T: Show All Symbols (Workspace Symbols)
+- Ctrl + Shift + O: Go to Symbol in File
+- Ctrl + Shift + M: Show Problems/Errors
+- F2: Rename Symbol
+- Alt + Left/Right: Navigate Back/Forward
+- Ctrl + - / Ctrl + Shift + -: Jump to Previous/Next Cursor Location
+
+Code Selection and Formatting:
+- Shift + Left/Right: Expand/Collapse Selection
+- Ctrl + Shift + L: Select All Occurrences of Current Selection
+- Ctrl + A: Select All
+- Ctrl + ] / Ctrl + [: Indent/Outdent Line
+- Shift + Alt + F: Format Document
+- Ctrl + K, Ctrl + F: Format Selection
+
+Debugging:
+- F5: Start/Continue Debugging
+- F9: Toggle Breakpoint
+- F10: Step Over
+- F11: Step Into
+- Shift + F11: Step Out
+- Shift + F5: Stop Debugging
+
+Terminal Shortcuts:
+- Ctrl + `: Show Integrated Terminal
+- Ctrl + Shift + `: Create New Terminal
+- Ctrl + Up/Down: Scroll in Terminal
+- Ctrl + Shift + Up/Down: Scroll in Terminal One Line at a Time
+
+Miscellaneous:
+- Ctrl + K, Z: Zen Mode (Maximize Editor Area)
+- Ctrl + F4: Close Active Panel
+- Ctrl + \: Split Editor

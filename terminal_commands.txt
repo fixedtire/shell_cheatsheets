@@ -1,0 +1,72 @@
+
+
+*** TERMINAL COMMANDS / SHORTCUTS ***
+
+
+***** FOLDERS/FILES *****
+
+ls                  		display files and subdirectories in the directory
+
+cd				Home directory
+cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
+cd/				Root of the drive
+cd -				Previous directory or folder you last browsed
+pwd				Shows your present working directory
+
+cd ..				Move up to the parent directory
+
+cd ../..			Move up two levels
+
+mkdir <dir>			create new folder named <dir>
+mkdir -p <dir>/<dir>		create nested folders
+mkdir <dir1> <dir2> <dir3>	create several folders at once
+
+rm <file>			remove file
+rmdir <folder>			remove folder
+
+touch <file>			create a new file without any extension
+
+cat <file>			output the content of <file>
+
+open [file]			opens a file
+
+open . .			opens current directory
+
+mv <file> <newfilename>		rename file
+mv <file> <dir>			move file to directory (tries overwriting!)
+
+
+
+***** VARIABLES *****
+can be useful for eg: API KEYS
+
+
+
+example=„string“;		stores a string into a variable called example
+
+echo $example;			prints the string of example to terminal
+
+
+**** PATHS *****
+
+echo $PATH			show current Paths
+tr ':' '\n' <<< $PATH		list Paths in a more structured way
+
+sudo nano /etc/paths		add Paths
+
+
+**** SEARCH ****
+
+sudo find / -name [name]	search your system for a file
+
+
+**** CLEAR / RETURN ****
+
+[CTRL] + [C]			return
+
+clear                   clears the history of CLI
+
+
+***** VS Code *****
+
+code .                  opens current directory in VS CODE
