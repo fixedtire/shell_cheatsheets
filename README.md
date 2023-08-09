@@ -1,8 +1,8 @@
-# console_shortcuts
+# :shell: Shell Cheat-Sheets
 
 _Note: So far this is only for MAC Users using bash or zrshc_
 
-### [Directly jump to Installation](#installation)
+### :arrow_right: [Directly jump to Installation](#installation)
 
 ## Quick-Start
 
