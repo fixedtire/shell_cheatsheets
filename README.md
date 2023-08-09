@@ -102,6 +102,34 @@ full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README
 
 ## Installation:
 
-1. Download .custom_commands.sh
+1. Download .txt files and save it to a directory, example directory: _/Users/mariah/bin/_
+2. Figure out if you are using ZShell or Bash:
 
-2. Write .txt files to user/local (you can also cherry-pick what you need :cherries:)
+```
+echo $SHELL
+```
+
+3. Open your Configuration File:
+   a: For ZShell type:
+
+```
+ nano ~/.zshrc
+```
+
+b: For Bash type:
+
+```
+ nano ~/.bshrc
+```
+
+_Alternative:_ Open the configuration with TextEdit (by default located in: /Users/yourusername/) 4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
+**Note:**Remind this an example path, you have to adjust it
+
+```
+alias gh_format='cat /Users/mariah/bin/github_format.txt'
+alias sh_commands='cat /Users/mariah/bin/terminal_commands.txt'
+alias git_commands='cat /Users/mariah/bin/git_commands.txt'
+```
+
+5. Save configuration file, close and reopen Terminal
+6. You can now use these commands in every directory! :space_invader: :space_invader:
