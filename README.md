@@ -2,7 +2,9 @@
 
 ### short commands to display cheat-sheets to your CLI (executable from any directory)
 
-_Note: So far this is only for MAC/Linux Users (Bash/ZShell)_
+> _Note: So far this is only for MAC/Linux Users (Bash/ZShell)_
+
+**Also Note:** The main idea is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, there for change the alias name ([see here](#installation)).
 
 Available cheat-sheets for:
 
@@ -147,6 +149,7 @@ _Alternative:_ Open the configuration with TextEdit (by default located in: /Use
 alias gh_format='cat /Users/mariah/bin/github_format.txt'
 alias showtips='cat /Users/mariah/bin/terminal_commands.txt'
 alias git_commands='cat /Users/mariah/bin/git_commands.txt'
+alias vstips='cat /Users/mariah/bin/vs_shortcuts.txt'
 ```
 
 5. Save configuration file, close and reopen Terminal

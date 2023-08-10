@@ -8,11 +8,12 @@
 ls                  		display files and subdirectories in the directory
 ls -a                       display hidden files too
 
-cd				Home directory
-cd [folder]			Change directory, e.g. cd Documents [TAB to suggest]
-cd /				Root of the drive
-cd -				Previous directory or folder you last browsed
-pwd				Shows your present working directory
+cd				home directory
+cd [folder]			hhange directory, e.g. cd Documents [TAB to suggest]
+cd /				hoot of the drive
+cd -				previous directory or folder you last browsed
+
+pwd				shows current directory (pwd = present working directory)
 
 cd ..				Move up to the parent directory
 
@@ -39,8 +40,7 @@ mv <file> <dir>			move file to directory (tries overwriting!)
 
 
 ***** VARIABLES *****
-can be useful for eg: API KEYS
-
+eg: can be useful API KEYS
 
 
 example=„string“;		stores a string into a variable called example
@@ -53,8 +53,11 @@ echo $example;			prints the string of example to terminal
 echo $PATH			show current Paths
 tr ':' '\n' <<< $PATH		list Paths in a more structured way
 
-sudo nano /etc/paths		add Paths
+echo $SHELL             shows which Shell you are using
+sudo nano ~/.zshrc		opens config file to add paths (if you use ZShell)
+sudo nano ~/.bashrc     opens config file to add paths (if you use Bash)
 
+export PATH="/new/directory:$PATH"    Add Path Replacing /new/directory with the actual path you want to add
 
 **** SEARCH ****
 
