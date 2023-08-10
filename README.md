@@ -139,7 +139,7 @@ _For Bash type:_
 
 _Help for GNU:_ [CMD] + [X] to save, press [Y] to save, [ENTER] to confirm
 
-_Alternative:_ Open the configuration with a Text Editor eg. TextEdit (by default the file islocated in: /Users/yourusername/)
+_Alternative:_ Open configuration with a Text-Editor eg. TextEdit (by default the file islocated in: /Users/yourusername/)
 
 4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
 
