@@ -1,7 +1,6 @@
-
 **** VS CODE SHORTCUTS ****
 
-shift + ctrl + `			opens internal terminal
+SHIFT + CTRL + `			opens internal terminal
 
 ALT + Click								Set Multiple Cursors to edit eg. multiple lines
 

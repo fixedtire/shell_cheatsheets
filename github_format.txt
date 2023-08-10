@@ -43,7 +43,7 @@ link to a website:
 link to .md file inside the repo:
 [link-title-to-other-md-file](example/example.md)
 
-jump to a section (document has to have a heading eg: ## quickstart):
+jump to a section (document has to have a heading eg: ## quick-start):
 [link-title](#quick-start)
 
 ********* Images *******
