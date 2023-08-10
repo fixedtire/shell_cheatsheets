@@ -6,12 +6,12 @@
 
 **Customization:** The main idea is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
 
-Available cheat-sheets for:
+_Available cheat-sheets for:_
 
 - **CLI-Commands**
 - **GitHub Text Formatting**
 - **Git/GitHub Commands**
-- **VS Code Shortcuts/CLI Commands**
+- **VS Code**
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
