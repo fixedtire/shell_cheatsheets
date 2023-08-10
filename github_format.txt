@@ -17,6 +17,8 @@ _italic_
 codeblock
 ```
 
+> This is a quote
+
 ********* Ordered List (Numbers) ************
 
 1. element 1
@@ -25,13 +27,24 @@ codeblock
 
 ********* Ordered List (Bullet Points) ************
 
+you can either use +, *, or -
+
+eg:
+
 - element 1
 - element 2
 - element 3
 
 ********* Links ********
 
-[Link-Title](URL)
+link to a website:
+[link-title](URL)
+
+link to .md file inside the repo:
+[link-title-to-other-md-file](example/example.md)
+
+jump to a section (document has to have a heading eg: ## quickstart):
+[link-title](#quick-start)
 
 ********* Images *******
 

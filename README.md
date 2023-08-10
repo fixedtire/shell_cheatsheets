@@ -1,5 +1,7 @@
 # :shell: Shell Cheat-Sheets
 
+[test](#test)
+
 ### short commands to display cheat-sheets to your CLI (executable from any directory)
 
 > _Note: So far this is only for MAC/Linux Users (Bash/ZShell)_
@@ -12,6 +14,8 @@ Available cheat-sheets for:
 - **GitHub Text Formatting**
 - **Git/GitHub Commands**
 - **VS Code Shortcuts/CLI Commands**
+
+### test
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
