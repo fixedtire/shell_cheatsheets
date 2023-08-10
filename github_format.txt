@@ -1,5 +1,5 @@
 
-******* Github Formatting for .md Files
+******* Github Syntax To Format Text *******
 
 source: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
@@ -37,13 +37,16 @@ eg:
 
 ********* Links ********
 
-link to a website:
+**link to a website:
+
 [link-title](URL)
 
-link to .md file inside the repo:
+**link to .md file inside the repo:
+
 [link-title-to-other-md-file](example/example.md)
 
-jump to a section (document has to have a heading eg: ## quick-start):
+**jump to a section (document has to have a heading eg: ## quick-start):
+
 [link-title](#quick-start)
 
 ********* Images *******
