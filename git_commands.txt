@@ -9,11 +9,11 @@ gh repo list								list all github repositories
 
 gh repo create								creates repo (after guiding through process)
 
-gh repo create my-project --private 					create private repo called ‘my-project‘
+gh repo create my-project --private 					creates private repo called ‘my-project‘
 		
-gh repo create my-project --public --clone				create a new remote repository and clone it locally
+gh repo create my-project --public --clone				creates a new remote repository and clone it locally
 
-gh repo create my-project --private --source=. --remote=upstream	create a remote repository from the current directory
+gh repo create my-project --private --source=. --remote=upstream	creates a remote repository from the current directory
 
 gh repo view								shows content of repository
 
@@ -48,20 +48,17 @@ git merge feature1 					when you changed back to master branch, you can merge it
 git -d feature1 					deletes branch feature1 (which is no longer needed if completed) 
 
 
-git add 'file name' 					add file to 'staging area'
-git add .						add everything
+git add 'file name' 					add file to staging area
+git add .						add everything to staging area
 
 git commit -m 'description' 				create commit with name 'description"
 
 
-[CTRL] + [C]	 (sometimes: [Q])			GO BACK TO TERMINAL
+[CTRL] + [C]	 (sometimes: [Q])			exit
 
-ONLY TO CHANGE REMOTE:
-git remote set-url origin https://github.com/example/test.git 		hook up with https (origin = name of remote repo)
+git remote set-url origin https://github.com/example/test.git 		change remote repo
 
-ONLY TO ADD REMOTE:
-git remote add origin https://url.com/x.git 				link local git repository with eg. github
-									since it may have multiple remote repos, 'origin' mostly gets used for main repo
+git remote add origin https://url.com/x.git 				add remote repo
 
 
 git remote -v 								displays the URLs of the current linked remote repository.
