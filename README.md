@@ -2,7 +2,7 @@
 
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
-> **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)\_
+**Note:** So far this is only for MAC/Linux Users (Bash/ZShell)\_
 
 Available cheat-sheets (customizable):
 
