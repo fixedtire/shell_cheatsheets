@@ -1,4 +1,4 @@
-# :shell: Shell Cheat-Sheets
+# :shell: Custom Commands for your Console
 
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
