@@ -2,9 +2,9 @@
 
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
-> _Note: So far this is only for MAC/Linux Users (Bash/ZShell)_
+_**Note:** So far this is only for MAC/Linux Users (Bash/ZShell)_
 
-**Customization:** The main idea is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
+> **Customization:** The main idea is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
 
 _Available cheat-sheets for:_
 
