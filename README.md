@@ -4,16 +4,16 @@
 
 _**Note:** So far this is only for MAC/Linux Users (Bash/ZShell)_
 
-> [!IMPORTANT]
-> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
-
-Available cheat-sheets for:
+Available cheat-sheets (customizable):
 
 - **CLI-Commands**
 - **GitHub Text Formatting**
 - **Git/GitHub Commands**
 - **VS Code**
 - **..maybe your own?**
+
+> [!IMPORTANT]
+> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
