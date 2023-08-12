@@ -2,15 +2,15 @@
 
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
-_**Note:** So far this is only for MAC/Linux Users (Bash/ZShell)_
+> **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)\_
 
 Available cheat-sheets (customizable):
 
-- **CLI-Commands**
-- **GitHub Text Formatting**
-- **Git/GitHub Commands**
-- **VS Code**
-- **..maybe your own?**
+- CLI-Commands
+- GitHub Text Formatting
+- Git/GitHub Commands
+- VS Code
+- _..maybe your own?_
 
 > [!IMPORTANT]
 > The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
