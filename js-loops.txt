@@ -1,0 +1,95 @@
+
+
+╭─────────────╮
+│    Array    │
+╰─────────────╯
+
+let words = ['you', 'can', 'do', 'it'];
+
+
+╭───────╮
+│  for  │
+╰───────╯
+
+for (let i=0; i < words.length; i++) {
+  console.log(words[i]);
+}
+
+// 'you' 'can' 'do' 'it'
+
+
+╭─────────╮
+│ for...in│    
+╰─────────╯
+
+usage: looping over object-properties
+
+difference to for...of (*)
+_________________________________________
+
+for (const key in words) {
+  console.log(words[key]);	// words[key](*)
+}
+
+// 'you' 'can' 'do' 'it'
+
+╭─────────╮
+│ for...of│
+╰─────────╯
+
+usage: looping over arrays
+_________________________________________
+
+for (const key of words) {		
+  console.log(key);		// key(*)
+}
+
+// 'you' 'can' 'do' 'it'
+
+╭─────────╮
+│ forEach │
+╰─────────╯
+
+words.forEach(word => {
+  console.log(word);
+});
+
+// 'you' 'can' 'do' 'it'
+
+
+╭───────╮
+│ while │
+╰───────╯
+
+loops until a condition is true
+_________________________________________
+
+
+let count = 0;
+
+while (count < 4) {
+  console.log(words[2]);
+  count++;
+}
+
+// 'do' 'do' 'do' 'do'
+
+
+╭───────────╮
+│ do...while│
+╰───────────╯
+
+same as while loop, but runs at least once 
+(even if condition is false)
+_________________________________________
+
+let x = 1
+do {
+  console.log(words[2]);
+} while (x > 1);
+
+// 'do'
+
+
+
+

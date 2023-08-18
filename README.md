@@ -5,12 +5,13 @@
 > [!IMPORTANT]
 > The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
 
-**Note:** So far this is only for MAC/Linux Users (Bash/ZShell)\_
-
 Available cheat-sheets (customizable):
 
 - CLI-Commands
 - GitHub Text Formatting
+- JavaScript Conditionals
+- JavaScript Loops
+- JavaScript Array Methods
 - Git/GitHub Commands
 - VS Code
 - _..maybe your own?_
@@ -61,7 +62,86 @@ open . .			opens current directory
 
 ```
 
-**Example 2: GitHub Text-Formatting**
+**Example 2: JavaScript Loops**
+
+_type into console_
+
+```
+js-loops
+```
+
+displays to console (extract):
+
+```
+╭─────────────────────╮
+    JavaScript Loops
+╰─────────────────────╯
+
+╭─────────────────────╮
+│    Example Array    │
+╰─────────────────────╯
+
+let words = ['you', 'can', 'do', 'it'];
+
+╭───────╮
+│  for  │
+╰───────╯
+
+for (let i=0; i < words.length; i++) {
+  console.log(words[i]);
+}
+
+// 'you' 'can' 'do' 'it'
+
+
+╭─────────╮
+│ forEach │
+╰─────────╯
+
+words.forEach(word => {
+  console.log(word);
+});
+
+// 'you' 'can' 'do' 'it'
+
+
+╭───────╮
+│ while │
+╰───────╯
+
+loops until a condition is true
+_________________________________________
+
+
+let count = 0;
+
+while (count < 4) {
+  console.log(words[2]);
+  count++;
+}
+
+// 'do' 'do' 'do' 'do'
+
+
+╭───────────╮
+│ do...while│
+╰───────────╯
+
+same as while loop, but runs at least once
+(even if condition is false)
+_________________________________________
+
+let x = 1
+do {
+  console.log(words[2]);
+} while (x > 1);
+
+// 'do'
+
+
+```
+
+**Example 3: GitHub Text-Formatting**
 
 _type into console_
 
@@ -118,6 +198,8 @@ full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README
 
 ## Installation:
 
+> **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)
+
 1. Download .txt files and save it to a directory, example directory: _/Users/mariah/bin/_
 2. Figure out if you are using ZShell or Bash:
 
@@ -152,6 +234,9 @@ alias gh_format='cat /Users/mariah/bin/github_format.txt'
 alias showtips='cat /Users/mariah/bin/terminal_commands.txt'
 alias git_commands='cat /Users/mariah/bin/git_commands.txt'
 alias vstips='cat /Users/mariah/bin/vs_shortcuts.txt'
+alias js-loops='cat /Users/mariah/bin/js-loops.txt'
+alias js-array-methods='cat /Users/mariah/bin/js-array-methods.txt'
+alias js-conditionals='cat /Users/mariah/bin/js-array-conditionals.txt'
 ```
 
 5. Save configuration file, close and reopen Terminal

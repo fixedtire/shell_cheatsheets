@@ -1,0 +1,163 @@
+╭────────────────────────────────╮
+     Array.prototype Methods   
+╰────────────────────────────────╯
+
+
+╭───────────────────╮
+│    Array.map()    │
+╰───────────────────╯
+
+iterates over Array (creates a new one)
+___________________________________________
+
+let words = ['you', 'can', 'do', 'it'];
+
+words.map((x) => console.log(x));
+
+> "you"
+> "can"
+> "do"
+> "it"
+
+╭───────────────────╮
+│   Array.reduce()  │
+╰───────────────────╯
+
+reduce an array depending on a function (eg. mathematical)
+
+* initialValue is the initial int for the calculation
+___________________________________________________________
+
+let numberz = [10, 8, 1]
+
+let initialValue = 0;
+
+numberz.reduce((accumulator, currentValue) => accumulator + currentValue, initialValue);
+
+// 19
+____________________________________________________________
+
+* changing the initialValue
+
+let numberz = [10, 8, 1]
+
+numberz.reduce((accumulator, currentValue) => accumulator + currentValue, 10);
+
+// 29
+
+
+╭───────────────────╮
+│   Array.filter()  │
+╰───────────────────╯
+
+creates a shallow copy of Array (same object reference)
+__________________________________________________________
+
+let words = ['you', 'can', 'do', 'it'];
+
+words.filter (word => word.length > 2);
+
+// 'you' 'can'
+
+
+
+╭───────────────────╮
+│   Array.sort()    │
+╰───────────────────╯
+
+* sorts array in place (no separate copy)
+
+* default order: ascending 
+
+(a < b < c for numbers / alphabetically for strings)
+
+* you can also implement a function
+_________________________________________________________
+
+
+let wordz = ['ben', 'anna', 'elisabeth'];
+
+wordz.sort();
+
+
+// [ 'anna', 'ben', 'elisabeth' ]
+
+_________________________________________________________
+
+let numberz = [1,9,20,3,500,2,40];
+
+numberz.sort((a, b) => {
+  if (a > b) { return 1; } 
+  else if (a == b) {return 0;}
+  else if (a < b) { return -1;}
+});
+
+// [ 1, 2, 3, 9, 20, 40, 500 ]
+____________________________________________________________
+
+
+╭───────────────────╮
+│   Array.pop ()    │
+╰───────────────────╯
+
+* removes last item of an array
+
+* memorize: pop(corn) -> movies -> happy END (of Array)
+_____________________________________________________________
+
+let numberz = [1,2,3];
+
+numberz.pop();
+
+console.log(numberz); // [1,2]
+
+
+╭───────────────────╮
+│   Array.shift ()  │
+╰───────────────────╯
+
+ removes first item of an array
+_________________________________
+
+let numberz = [1,2,3];
+
+numberz.shift();
+
+console.log(numberz); // [2,3];
+
+
+╭───────────────────╮
+│  Array.reverse()  │
+╰───────────────────╯
+
+let numberz = [1,2,3];
+
+numberz.reverse();
+
+// [3,2,1]
+
+╭───────────────────╮
+│  Array.concat()   │
+╰───────────────────╯
+
+* returns a new array (does not change the existing array)
+
+* concatenate (=joining) two arrays
+__________________________________________________________
+
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+
+console.log(array3);
+// Output: ["a", "b", "c", "d", "e", "f"]
+
+╭───────────────────╮
+│  Array.indexOf()  │
+╰───────────────────╯
+
+const myArray = [10, 20, 30, 40, 50];
+console.log(myArray.indexOf(30));
+// Output: 2
+console.log(myArray[2]); 	// 30
+
