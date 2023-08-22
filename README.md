@@ -4,8 +4,8 @@
 
 What you'll be able to do with it:
 
-- :speech_balloon: **display** cheat sheets by command from anywhere inside your console
-- :pencil2: **edit** cheat sheets by command from anywhere inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
+- :speech_balloon: **display** cheat sheets by command inside your console ([show me how](#quick-start))
+- :pencil2: **edit** cheat sheets by command inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
 - :new: **create** new commands ([show me how](#how-to-create-a-new-command))
 
 > [!IMPORTANT]
