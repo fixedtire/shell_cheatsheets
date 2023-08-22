@@ -4,8 +4,6 @@
 
 ### :arrow_right: [Quick Start](#quick-start)
 
-### :arrow_right: [Directly jump to Installation](#installation)
-
 > [!IMPORTANT]
 > The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **I** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** ([show me how](#how-to-edit-contents-of-a-cheat-sheet)). You can also rename the commands, therefor change the alias name ([show me how](#how-to-change-a-command-name)).
 
@@ -27,6 +25,8 @@ Available cheat-sheets (customizable):
 - Git/GitHub Commands
 - VS Code
 - _..maybe your own?_
+
+### :arrow_right: [Directly jump to Installation](#installation)
 
 ## Quick-Start
 
