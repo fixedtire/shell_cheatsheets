@@ -346,7 +346,7 @@ _Alternatively_ you can also edit the .txt file of a command in a code/text-edit
 > **Note:** Creating a new command also creates a new text-file. To edit this new text-file: [click here](#how-to-edit-contents-of-a-cheat-sheet)
 
 ```
-new-sheet <nameofcommand>       // No White Spaces allowed, use '_', or '-' to seperate words
+new-sheet <nameofcommand>       // No White Spaces allowed, use '_', or '-' to separate words
 ```
 
 **Example:** You want to create a new command / cheat sheet called 'random_notes'
