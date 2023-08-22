@@ -280,7 +280,7 @@ PATH_TO_PROFILE="~/.bshrc"
 
 You can also cherry-pick depending to your needs :cherries:
 
-For example: You dont need the react sheet cheat, delete the following lines:
+For example: If you dont want the react sheet cheat, delete the following lines:
 
 ```
 # React Cheat-Sheet
