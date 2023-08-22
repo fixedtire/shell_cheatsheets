@@ -20,7 +20,7 @@ js-strings          jacascript cheat sheet
 
 react-tips		react commands
 
-mac-char		special characters for mac
+special-chars		keyboard shortcuts for special characters
 
 random-notes		notes that won't fit into a category
 

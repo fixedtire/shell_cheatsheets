@@ -73,9 +73,11 @@ example Output:
 | open . .                   | opens current directory                              |
 | mv <file> <newfilename>    | rename file                                          |
 | mv <file> <dir>            | move file to directory (tries overwriting!)          |
++-----------------------------------------------------------------------------------+
+|                              VARIABLES                                            |
++-----------------------------------------------------------------------------------+
 | example=„string“;          | stores a string into a variable called example       |
 | echo $example;             | prints the string of example to terminal             |
-| [cmd] + [Shift] + [.]      | show hidden system files/folders                     |
 +-----------------------------------------------------------------------------------+
 |                                PATHS                                              |
 +-----------------------------------------------------------------------------------+
