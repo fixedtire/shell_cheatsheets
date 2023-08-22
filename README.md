@@ -3,7 +3,7 @@
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
 > [!IMPORTANT]
-> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **_I_** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** (eg. delete/add lines, add custom notes etc). You can also rename the commands, therefor change the alias name ([see here](#installation)).
+> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **I** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** ([change content of cheat sheets via command](#how-to-edit-contents-of-a-cheat-sheet)). You can also rename the commands, therefor change the alias name ([How do I change the command's names?](#how-to-change-a-command-name)).
 
 Available cheat-sheets (customizable):
 
@@ -12,11 +12,11 @@ Available cheat-sheets (customizable):
 - JavaScript Conditionals
 - JavaScript Loops
 - JavaScript Array Methods
+- JavaScript Strings
+- Special Characters
 - Git/GitHub Commands
 - VS Code
 - _..maybe your own?_
-
-[How do I change the command's names?](#how-to-change-a-command-name)
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
@@ -321,3 +321,22 @@ type into console:
 ```
 edit commands
 ```
+
+## How to edit contents of a cheat sheet?
+
+**By command:**
+To edit type following command into console
+
+```
+edit <nameofcommand>
+```
+
+**Example:** For editing JavaScript Loops Cheat Sheet type:
+
+```
+edit js-loops
+```
+
+(Opens js-loops.txt)
+
+_Alternatively_ you can also edit the .txt file of a command in a code/text-editor
