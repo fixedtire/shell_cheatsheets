@@ -22,6 +22,16 @@ Available cheat-sheets (customizable):
 
 What you'll be able to do with it:
 
+- **display** cheat sheets by command from anywhere inside your console
+- **edit** cheat sheets by command from anywhere inside your console
+- **create** new commands
+
+To display all available commands:
+
+```
+commands
+```
+
 **Example1: For useful CLI-Commands**
 
 _type into console:_
@@ -33,32 +43,56 @@ showtips
 example Output:
 
 ```
-ls                            display files and subdirectories in the directory
+                            ╭─────────────────────╮
+                               Console Shortcuts
+                            ╰─────────────────────╯
 
-cd                            Home directory
-cd [folder]                   Change directory, e.g. cd Documents [TAB to suggest]
-cd/			      Root of the drive
-cd -			      Previous directory or folder you last browsed
-pwd			      Show your present working directory
 
-cd ..			      Move up to the parent directory
++-----------------------------------------------------------------------------------+
+|                             FILES / FOLDERS                                       |
++-----------------------------------------------------------------------------------+
+| ls                  	     | display files and subdirectories in the directory    |
+| ls -a                      | displays hidden files too                            |
+| cd                         | Home directory                                       |
+| cd [folder]                | Change directory, e.g. cd Documents [TAB to suggest] |
+| cd /                       | Root of the drive                                    |
+| cd -                       | Previous directory or folder you last browsed        |
+| pwd                        | Show your present working directory                  |
+| cd ..                      | Move up to the parent directory                      |
+| cd ../..                   | Move up two levels                                   |
+| mkdir <dir>                | create new folder named <dir>                        |
+| mkdir -p <dir>/<dir>       | create nested folders                                |
+| mkdir <dir1> <dir2> <dir3> | create several folders at once                       |
+| rm <file>                  | remove file                                          |
+| rmdir <folder>             | remove folder                                        |
+| touch <file>               | create a new file without any extension              |
+| cat <file>                 | output the content of <file>                         |
+| open [file]                | opens a file                                         |
+| open . .                   | opens current directory                              |
+| mv <file> <newfilename>    | rename file                                          |
+| mv <file> <dir>            | move file to directory (tries overwriting!)          |
+| example=„string“;          | stores a string into a variable called example       |
+| echo $example;             | prints the string of example to terminal             |
+| [cmd] + [Shift] + [.]      | show hidden system files/folders                     |
++-----------------------------------------------------------------------------------+
+|                                PATHS                                              |
++-----------------------------------------------------------------------------------+
+| echo $PATH                 | show current Paths                                   |
+| echo $SHELL                | shows path of/kind of Shell Profile that you use     |
+| tr ':' '\n' <<< $PATH      | list Paths in a more structured way                  |
+| sudo nano <path>           | add Paths  (<path> eg: Users/user/.bashprofile)      |
++-----------------------------------------------------------------------------------+
+|                                SEARCH                                             |
++-----------------------------------------------------------------------------------+
+| sudo find / -name [name]   | search your system for a file                        |
++-----------------------------------------------------------------------------------+
+|                             CANCEL / EXIT                                         |
++-----------------------------------------------------------------------------------+
+| [CTRL] + [C]               | returns                                              |
++-----------------------------------------------------------------------------------+
 
-cd ../..		      Move up two levels
-
-mkdir <dir>		      create new folder named <dir>
-mkdir -p <dir>/<dir>	      create nested folders
-mkdir <dir1> <dir2> <dir3>	create several folders at once
-
-rm <file>			remove file
-rmdir <folder>			remove folder
-
-touch <file>			create a new file without any extension
-
-cat <file>			output the content of <file>
-
-open [file]			opens a file
-
-open . .			opens current directory
+___________________________________________
+commands		show all custom commands
 
 ```
 
@@ -200,7 +234,7 @@ full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README
 
 > **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)
 
-1. Download .txt files and save it to a directory, example directory: _/Users/mariah/bin/_
+1. Download all .txt files from "txt\*files" and save it to a directory, example directory: \_/Users/mariah/bin/\_
 2. Figure out if you are using ZShell or Bash:
 
 ```
@@ -225,18 +259,32 @@ _Help for GNU:_ [CMD] + [X] to save, press [Y] to save, [ENTER] to confirm
 
 _Alternative:_ Open configuration with a Text-Editor eg. TextEdit (by default the file islocated in: /Users/yourusername/)
 
-4. Add the following line(s) (you can also cherry-pick depending to your needs :cherries:):
-
-   **Note:** Don't forget to replace the path with the directory where you saved the .txt files!
+or:
 
 ```
-alias gh_format='cat /Users/mariah/bin/github_format.txt'
-alias showtips='cat /Users/mariah/bin/terminal_commands.txt'
-alias git_commands='cat /Users/mariah/bin/git_commands.txt'
-alias vstips='cat /Users/mariah/bin/vs_shortcuts.txt'
-alias js-loops='cat /Users/mariah/bin/js-loops.txt'
-alias js-array-methods='cat /Users/mariah/bin/js-array-methods.txt'
-alias js-conditionals='cat /Users/mariah/bin/js-array-conditionals.txt'
+ open ~/.bshrc
+```
+
+4. Add contents of profile.txt ([click here:](/console_profile/profile.txt))
+
+   **Important:** Replace the path with the directory where you saved the .txt files / where your shell profile is located!
+
+\_example:\_
+
+```
+# Path Variables
+
+PATH_TO_SHEETS="/Users/mariah/bin/"
+PATH_TO_PROFILE="~/.bshrc"
+```
+
+You can also cherry-pick depending to your needs :cherries:
+
+For example: You dont need the react sheet cheat, delete the following lines:
+
+```
+# React Cheat-Sheet
+alias react-tips='cat '$PATH_TO_SHEETS'react-tips.txt'
 ```
 
 5. Save configuration file, close and reopen Terminal

@@ -1,0 +1,45 @@
+
+_________________ List of all Custom Commands __________________
+
+
+commands		show all custom commands	   
+
+terminal-tips		terminal commands           
+
+ghformat		github text formatting
+
+git-tips		git/gh commands
+
+vs-tips			vs code shortcuts
+
+js-loops		javascript cheat sheet
+
+js-array-methods	javascript cheat sheet
+
+react-tips		react commands
+
+mac-char		special character for mac
+
+random-notes		notes that won't fit into a category
+
+
+
+____________________  Edit Sheet / Command  ____________________
+
+
+profile			edit commands (terminal profile)		      		
+
+edit <commandname>	edit cheat sheets of <commandname>
+
+listsheets		list all sheets 
+
+
+_____________________ New Sheet / Command ______________________
+
+
+new-sheet <name>	eg: new-sheet neu -> creates neu.txt
+					
+
+edit <name>		eg: edit neu -> opens neu.txt
+
+_________________________________________________________________

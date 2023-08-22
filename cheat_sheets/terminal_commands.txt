@@ -1,0 +1,50 @@
+                            ╭─────────────────────╮
+                               Console Shortcuts  
+                            ╰─────────────────────╯
+
+
++-----------------------------------------------------------------------------------+
+|                             FILES / FOLDERS                                       |
++-----------------------------------------------------------------------------------+
+| ls                  	     | display files and subdirectories in the directory    |
+| ls -a                      | displays hidden files too                            |
+| cd                         | Home directory                                       |
+| cd [folder]                | Change directory, e.g. cd Documents [TAB to suggest] |
+| cd /                       | Root of the drive                                    |
+| cd -                       | Previous directory or folder you last browsed        |
+| pwd                        | Show your present working directory                  |
+| cd ..                      | Move up to the parent directory                      |
+| cd ../..                   | Move up two levels                                   |
+| mkdir <dir>                | create new folder named <dir>                        |
+| mkdir -p <dir>/<dir>       | create nested folders                                |
+| mkdir <dir1> <dir2> <dir3> | create several folders at once                       |
+| rm <file>                  | remove file                                          |
+| rmdir <folder>             | remove folder                                        |
+| touch <file>               | create a new file without any extension              |
+| cat <file>                 | output the content of <file>                         |
+| open [file]                | opens a file                                         |
+| open . .                   | opens current directory                              |
+| mv <file> <newfilename>    | rename file                                          |
+| mv <file> <dir>            | move file to directory (tries overwriting!)          |
+| example=„string“;          | stores a string into a variable called example       |
+| echo $example;             | prints the string of example to terminal             |
+| [cmd] + [Shift] + [.]      | show hidden system files/folders                     |
++-----------------------------------------------------------------------------------+
+|                                PATHS                                              |
++-----------------------------------------------------------------------------------+
+| echo $PATH                 | show current Paths                                   |
+| echo $SHELL                | shows path of/kind of Shell Profile that you use     |
+| tr ':' '\n' <<< $PATH      | list Paths in a more structured way                  |
+| sudo nano <path>           | add Paths  (<path> eg: Users/user/.bashprofile)      |
++-----------------------------------------------------------------------------------+
+|                                SEARCH                                             |
++-----------------------------------------------------------------------------------+
+| sudo find / -name [name]   | search your system for a file                        |
++-----------------------------------------------------------------------------------+
+|                             CANCEL / EXIT                                         |
++-----------------------------------------------------------------------------------+
+| [CTRL] + [C]               | returns                                              |
++-----------------------------------------------------------------------------------+
+
+___________________________________________
+commands		show all custom commands

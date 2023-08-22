@@ -1,0 +1,81 @@
+# Path Variables
+
+PATH_TO_SHEETS="..."
+PATH_TO_PROFILE="..."
+
+alias tt='cat '$PATH_TO_SHEETS'commands.txt'
+
+# GitHub Text Formatting
+alias ghformat='cat '$PATH_TO_SHEETS'ghformat.txt'
+
+# Terminal Cheat-Sheet
+alias terminal-tips='cat '$PATH_TO_SHEETS'terminal-tips.txt'
+
+# JS Loops
+alias js-loops='cat '$PATH_TO_SHEETS'js-loops.txt'
+
+# JS Array Methods 
+alias js-array-methods='cat '$PATH_TO_SHEETS'js-array-methods.txt'
+
+# JS Conditionals
+alias js-conditionals='cat '$PATH_TO_SHEETS'js-conditionals.txt'
+
+# JS Strings
+
+alias js-strings='cat '$PATH_TO_SHEETS'js-strings.txt'
+
+# Git/GitHub Cheat-Sheet
+alias git-tips='cat '$PATH_TO_SHEETS'git-tips.txt'
+
+# VSCode Shortcuts
+alias vs-tips='cat '$PATH_TO_SHEETS'vs-tips.txt'
+
+# React Cheat-Sheet
+alias react-tips='cat '$PATH_TO_SHEETS'react-tips.txt'
+
+# Random Notes
+alias random-tips='cat '$PATH_TO_SHEETS'random-tips.txt'
+
+# Show All Custom Commands
+alias commands='cat '$PATH_TO_SHEETS'commands.txt'
+
+# Special Mac Characters
+
+alias mac-char='cat '$PATH_TO_SHEETS'mac-char.txt'
+
+# Edit Console Profile
+alias profile='open '$PATH_TO_PROFILE
+
+### FUNCTIONS ###
+
+# Edit Sheet
+
+editsheet() {
+ open $PATH_TO_SHEETS$1".txt"
+}
+
+alias edit="editsheet"
+
+# New Custom Commands/Sheets
+
+newsheet() {
+  touch $PATH_TO_SHEETS$1".txt"
+  echo "\nalias "$1"='cat $PATH_TO_SHEETS"$1".txt'\n" >> $PATH_TO_PROFILE
+  echo "\n"$1"\n" >> $PATH_TO_SHEETS'commands.txt'
+  cat $PATH_TO_SHEETS'newcommand.txt'
+  echo "\nsuccesfully set '$1' as a command.\n\n"
+  echo "*** To edit the new sheet type: edit $1"
+  echo "*** To show all commands type: commands"
+  echo "*** To edit commands type: edit commands"
+  echo "*** To edit console profile type: profile"
+}
+
+alias new-sheet='newsheet'
+
+# List All Sheets
+
+listsheets() {
+ls $PATH_TO_SHEETS
+}
+
+alias listsheets="listsheets"

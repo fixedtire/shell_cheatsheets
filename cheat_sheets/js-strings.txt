@@ -1,0 +1,32 @@
+╭────────────────────────────────╮
+       JavaScript Strings  
+╰────────────────────────────────╯
+
+
+╭────────────────────────────────╮
+│    String Interpolation        │
+╰────────────────────────────────╯
+
+instead of ' ' using ` ` + template literal
+____________________________________________
+
+let name = 'Rosa'
+
+console.log(`Hey ${name}`);	// important: not using ' '
+
+// Output: 'Hey Rosa'
+
+
+╭────────────────────────────────╮
+│    String Concatenation        │
+╰────────────────────────────────╯
+
+let name1 = 'Rosa'
+
+let name2 = 'Bob'
+
+const msg = name1 + ' is the sister of ' + name2;
+
+console.log(msg);	
+
+// Output: 'Rosa is the sister of Bob'

@@ -1,0 +1,13 @@
+npx create-react-app my-app 		Create a new React app named "my-app"
+
+npm start				Launch the development server to preview your app
+
+npm run build 				Generate a production-ready build folder of your app
+
+npm test 				Run tests for your React app
+
+npm install 				Install project dependencies
+
+npm run lint 				Check your code for errors and style issues
+
+npm run startprod 			Start a production version of your app (custom setups)
