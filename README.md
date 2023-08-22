@@ -236,7 +236,8 @@ full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README
 
 > **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)
 
-1. Download all .txt files from "txt\*files" and save it to a directory, example directory: \_/Users/mariah/bin/\_
+1. Download all .txt files from 'cheat_sheets' ([click](/cheat_sheets/)) and save it to a directory, example directory: \_/Users/mariah/bin/\_
+
 2. Figure out if you are using ZShell or Bash:
 
 ```
