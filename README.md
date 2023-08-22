@@ -16,6 +16,8 @@ Available cheat-sheets (customizable):
 - VS Code
 - _..maybe your own?_
 
+[How do I change the command's names?](#how_to_change_a_command_name)
+
 ### :arrow_right: [Directly jump to Installation](#installation)
 
 ## Quick-Start
@@ -289,3 +291,33 @@ alias react-tips='cat '$PATH_TO_SHEETS'react-tips.txt'
 
 5. Save configuration file, close and reopen Terminal
 6. You can now use these commands in every directory! :space_invader: :space_invader:
+
+## How to change a Command Name?
+
+1. Type in the following command to open your Console profile
+
+```
+profile
+```
+
+2. Let's say you want to change the command name of 'terminal-tips':
+
+```
+# Terminal Cheat-Sheet
+alias terminal-tips='cat '$PATH_TO_SHEETS'terminal-tips.txt'
+```
+
+Change the Alias name:
+
+```
+# Terminal Cheat-Sheet
+alias NEWNAME='cat '$PATH_TO_SHEETS'terminal-tips.txt'
+```
+
+3. Remember to adjust your list of available commands to not forget the name of your new command
+
+type into console:
+
+```
+edit commands
+```
