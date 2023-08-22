@@ -351,7 +351,7 @@ new-sheet <nameofcommand>       // No White Spaces allowed, use '_', or '-' to s
 
 **Example:** You want to create a new command / cheat sheet called 'random_notes'
 
-1. Create new command / cheat sheet:
+1. Create new command:
 
 ```
 new-sheet random_notes
@@ -366,3 +366,7 @@ edit random_notes
 (opens random_notes.txt)
 
 _Alternatively_ you can also edit the .txt file of a command in a code/text-editor
+
+3. Close and Re-Open Terminal
+
+You can now use 'random_notes' as a new command in your terminal (from any directory) :crab:
