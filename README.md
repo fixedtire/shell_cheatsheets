@@ -2,6 +2,12 @@
 
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
+What you'll be able to do with it:
+
+- :speech_balloon: **display** cheat sheets by command from anywhere inside your console
+- :pencil2: **edit** cheat sheets by command from anywhere inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
+- :new: **create** new commands ([show me how](#how-to-create-a-new-command))
+
 > [!IMPORTANT]
 > The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **I** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** ([show me how](#how-to-edit-contents-of-a-cheat-sheet)). You can also rename the commands, therefor change the alias name ([show me how](#how-to-change-a-command-name)).
 
@@ -21,12 +27,6 @@ Available cheat-sheets (customizable):
 ### :arrow_right: [Directly jump to Installation](#installation)
 
 ## Quick-Start
-
-What you'll be able to do with it:
-
-- **display** cheat sheets by command from anywhere inside your console
-- **edit** cheat sheets by command from anywhere inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
-- **create** new commands ([show me how](#how-to-create-a-new-command))
 
 To display all available commands:
 
