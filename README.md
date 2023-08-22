@@ -322,7 +322,7 @@ type into console:
 edit commands
 ```
 
-## How to edit contents of a cheat sheet?
+## :pencil2:How to edit contents of a cheat sheet?
 
 **By command:**
 To edit type following command into console
@@ -341,7 +341,7 @@ edit js-loops
 
 _Alternatively_ you can also edit the .txt file of a command in a code/text-editor
 
-## How to create a new command?
+## :new: How to create a new command?
 
 > **Note:** Creating a new command also creates a new text-file. To edit this new text-file: [click here](#how-to-edit-contents-of-a-cheat-sheet)
 
