@@ -26,7 +26,7 @@ What you'll be able to do with it:
 
 - **display** cheat sheets by command from anywhere inside your console
 - **edit** cheat sheets by command from anywhere inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
-- **create** new commands
+- **create** new commands ([show me how](#how-to-create-a-new-command))
 
 To display all available commands:
 
