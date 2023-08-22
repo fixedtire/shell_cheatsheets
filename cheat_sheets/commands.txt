@@ -16,9 +16,11 @@ js-loops		javascript cheat sheet
 
 js-array-methods	javascript cheat sheet
 
+js-strings          jacascript cheat sheet
+
 react-tips		react commands
 
-mac-char		special character for mac
+mac-char		special characters for mac
 
 random-notes		notes that won't fit into a category
 

@@ -16,7 +16,7 @@ Available cheat-sheets (customizable):
 - VS Code
 - _..maybe your own?_
 
-[How do I change the command's names?](#how_to_change_a_command_name)
+[How do I change the command's names?](#how-to-change-a-command-name)
 
 ### :arrow_right: [Directly jump to Installation](#installation)
 
@@ -39,7 +39,7 @@ commands
 _type into console:_
 
 ```
-showtips
+terminal-tips
 ```
 
 example Output:

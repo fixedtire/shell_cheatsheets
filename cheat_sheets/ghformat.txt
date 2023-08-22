@@ -41,11 +41,11 @@ eg:
 
 [link-title](URL)
 
-**link to .md file inside the repo:
+* link to .md file inside the repo:
 
-[link-title-to-other-md-file](example/example.md)
+[link-title](example/example.md)
 
-**jump to a section (document has to have a heading eg: ## quick-start):
+* jump to a section (document has to have a heading eg: ## Quick Start):
 
 [link-title](#quick-start)
 

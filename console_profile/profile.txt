@@ -3,8 +3,6 @@
 PATH_TO_SHEETS="..."
 PATH_TO_PROFILE="..."
 
-alias tt='cat '$PATH_TO_SHEETS'commands.txt'
-
 # GitHub Text Formatting
 alias ghformat='cat '$PATH_TO_SHEETS'ghformat.txt'
 
@@ -21,7 +19,6 @@ alias js-array-methods='cat '$PATH_TO_SHEETS'js-array-methods.txt'
 alias js-conditionals='cat '$PATH_TO_SHEETS'js-conditionals.txt'
 
 # JS Strings
-
 alias js-strings='cat '$PATH_TO_SHEETS'js-strings.txt'
 
 # Git/GitHub Cheat-Sheet
@@ -39,9 +36,9 @@ alias random-tips='cat '$PATH_TO_SHEETS'random-tips.txt'
 # Show All Custom Commands
 alias commands='cat '$PATH_TO_SHEETS'commands.txt'
 
-# Special Mac Characters
+# Special Characters
 
-alias mac-char='cat '$PATH_TO_SHEETS'mac-char.txt'
+alias special-chars='cat '$PATH_TO_SHEETS'special-chars.txt'
 
 # Edit Console Profile
 alias profile='open '$PATH_TO_PROFILE
