@@ -236,7 +236,7 @@ full list here: https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README
 
 > **Note:** So far this is only for MAC/Linux Users (Bash/ZShell)
 
-1. Download all .txt files from 'cheat_sheets' ([click](/cheat_sheets/)) and save it to a directory, example directory: \_/Users/mariah/bin/\_
+1. Download all .txt files from ([cheat_sheets](/cheat_sheets/)) and save it to a directory.
 
 2. Figure out if you are using ZShell or Bash:
 
@@ -260,7 +260,7 @@ _For Bash type:_
 
 _Help for GNU:_ [CMD] + [X] to save, press [Y] to save, [ENTER] to confirm
 
-_Alternative:_ Open configuration with a Text-Editor eg. TextEdit (by default the file islocated in: /Users/yourusername/)
+_Alternatively:_ Open configuration with a Code/Text-Editor
 
 or:
 
@@ -272,7 +272,7 @@ or:
 
    **Important:** Replace the path with the directory where you saved the .txt files / where your shell profile is located!
 
-\_example:\_
+_example:_
 
 ```
 # Path Variables
