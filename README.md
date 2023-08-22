@@ -3,7 +3,7 @@
 ### short commands to display cheat-sheets in your CLI (executable from any directory)
 
 > [!IMPORTANT]
-> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **I** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** ([change content of cheat sheets via command](#how-to-edit-contents-of-a-cheat-sheet)). You can also rename the commands, therefor change the alias name ([How do I change the command's names?](#how-to-change-a-command-name)).
+> The main idea of this project is to help beginner developers improving their workflow. The cheat-sheets are a collection of commands/shortcuts that **I** think are useful. If you feel different about it, **you're more than welcome to customize the sheets** ([show me how](#how-to-edit-contents-of-a-cheat-sheet)). You can also rename the commands, therefor change the alias name ([show me how](#how-to-change-a-command-name)).
 
 Available cheat-sheets (customizable):
 
@@ -25,7 +25,7 @@ Available cheat-sheets (customizable):
 What you'll be able to do with it:
 
 - **display** cheat sheets by command from anywhere inside your console
-- **edit** cheat sheets by command from anywhere inside your console
+- **edit** cheat sheets by command from anywhere inside your console ([show me how](#how-to-edit-contents-of-a-cheat-sheet))
 - **create** new commands
 
 To display all available commands:
@@ -267,7 +267,7 @@ or:
  open ~/.bshrc
 ```
 
-4. Add contents of profile.txt ([click here:](/console_profile/profile.txt))
+4. Add contents of profile.txt ([click here](/console_profile/profile.txt))
 
    **Important:** Replace the path with the directory where you saved the .txt files / where your shell profile is located!
 
@@ -337,6 +337,32 @@ edit <nameofcommand>
 edit js-loops
 ```
 
-(Opens js-loops.txt)
+(opens js-loops.txt)
+
+_Alternatively_ you can also edit the .txt file of a command in a code/text-editor
+
+## How to create a new command?
+
+> **Note:** Creating a new command also creates a new text-file. To edit this new text-file: [click here](#how-to-edit-contents-of-a-cheat-sheet)
+
+```
+new-sheet <nameofcommand>       // No White Spaces allowed, use '_', or '-' to seperate words
+```
+
+**Example:** You want to create a new command / cheat sheet called 'random_notes'
+
+1. Create new command / cheat sheet:
+
+```
+new-sheet random_notes
+```
+
+2. Add content of the new cheat sheet:
+
+```
+edit random_notes
+```
+
+(opens random_notes.txt)
 
 _Alternatively_ you can also edit the .txt file of a command in a code/text-editor
